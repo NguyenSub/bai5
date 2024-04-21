@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+
+    
+}
+/* chẵn */
+tr:nth-child(even) {
+    background-color: #ffffff;
+}
+/* lẻ */
+tr:nth-child(odd) {
+    background-color: #ddd;
+}
+th {
+    background-color: #FF6347;
+    border: 2px solid #EAACA1;
+}
